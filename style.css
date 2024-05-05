@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+   
+    color: white;
+}
+
+.container nav {
+    display: flex;
+    justify-content: end;
+   
+  
+}
+
+.container .logo{
+    flex-grow: 1;
+   
+  
+}
+
+.container ul {
+    display: flex;
+    justify-content: end;
+      
+}
+
+.container ul li {
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.container ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+.container ul li a:hover {
+    color: lightcoral;
+    text-decoration: none;
+    
+}
+
+
+.container nav button {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.container .bg{
+    background-image: url(image/n1.webp);
+    
+    background-repeat: no-repeat;
+}
+
+.container .bg2{
+    background-image: url(image/b2.jpg);
+    padding: 400px;
+    margin-top: 10px;
+
+}
+.container .bg2 h1{
+    color: lightcoral;
+    
+    font-size: 40px;
+}
+.container .bg2 h1:hover{
+    color: lightsalmon;
+    font-weight: bold; 
+    cursor: pointer;
+
+}
+
+.container .f1{
+    margin-top: 10px;
+    padding: 50px;
+    padding-left: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: lightpink ;
+   
+
+}
+.container .f1 p{
+    padding: 3px;
+    font-size: 15px;
+   
+}
+
+.container .c1{
+    color: black;
+    display: flex;
+}
+.container .c1 .cm1{
+    padding-left:0;
+    padding-top: 10px;
+}
+.container .c1 .cc1{
+    padding: 100px;
+}
